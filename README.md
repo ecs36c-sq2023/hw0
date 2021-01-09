@@ -23,7 +23,7 @@ IMPORTANT: **DO NOT CHANGE THE SECTION MARKED WITH**
 /** DO NOT CHANGE **/
 ```
 
-0. Build the homework with one of the three options below.
+0. Build the homework with one of the three options [below](<#Building\ Your\ Homework>).
 
 1. Edit `main.cpp` to implement the I/O Interface.
 

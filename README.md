@@ -11,7 +11,7 @@ And implement `insertion_sort`.
 
 1. [Homework Content](<#Homework\ Content>)
 2. [CMakeFiles](#CMakeFiles)
-3. [CPP References](<#CPP\ Reference>)
+3. [Building Your Homework](<#Building\ Your\ Homework>)
 
 ## Homework Content
 

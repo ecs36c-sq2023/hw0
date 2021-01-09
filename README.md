@@ -9,9 +9,9 @@ And implement `insertion_sort`.
 
 ## Table of Contents
 
-1. [Homework Content](<#Homework\ Content>)
-2. [CMakeFiles](#CMakeFiles)
-3. [Building Your Homework](<#Building\ Your\ Homework>)
+1. Homework Content
+2. CMakeFiles
+3. Building Your Homework
 
 ## Homework Content
 
@@ -23,7 +23,7 @@ IMPORTANT: **DO NOT CHANGE THE SECTION MARKED WITH**
 /** DO NOT CHANGE **/
 ```
 
-0. Build the homework with one of the three options [below](<#Building\ Your\ Homework>).
+0. Build the homework with one of the three options in section Building your Homework..
 
 1. Edit `main.cpp` to implement the I/O Interface.
 
@@ -72,7 +72,7 @@ In short: **CMake** is a very sophisticated tool for you to build/run/test/deplo
 
 CMake is:
 
-1. Open-source - Meanining we don't have to pay to use it
+1. Open-source - Meaning we don't have to pay to use it
 
 2. Cross-Platform - You can run this tool on any\* operating system.
 

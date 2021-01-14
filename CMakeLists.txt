@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.10)
+# UPDATED TO 3.10 to match the cmake version on CSIF
 # Defines the minimum required cmake version
 # you can check cmake version on your os by typing 
 # ```cmake --version``` on the terminal (#1)

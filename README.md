@@ -1,6 +1,6 @@
 # Homework 0
 
-> Due: 01-15-2021 11:59:59 PM
+> Due: 03-12-2021 11:59:59 PM
 
 The goal of this homework is to familiarze the homework submission process.
 And implement `insertion_sort`.

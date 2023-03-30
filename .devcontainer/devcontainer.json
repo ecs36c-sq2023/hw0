@@ -1,22 +1,25 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
 {
-	"name": "C++",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+  "name": "Alpine",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/base:alpine-3.17",
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	//"postCreateCommand": "gcc -v",
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
 
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-vscode.cpptools-extension-pack"
-			],
-			"settings": {
-				"editor.formatOnSave": true
-			}
-		}
-	}
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "uname -a",
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools-extension-pack"],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  }
 }

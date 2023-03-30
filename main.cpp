@@ -2,7 +2,7 @@
  * in order to call insertion_sort
  */
 
-#include "src/utils.hpp"
+#include "utils.hpp"
 
 int main(int argc, char const *argv[])
 {

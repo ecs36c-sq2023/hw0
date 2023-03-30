@@ -1,0 +1,16 @@
+[
+    {
+        "name": "gcc (SELECT ME!)",
+        "compilers": {
+            "C": "/usr/bin/gcc",
+            "CXX": "/usr/bin/g++"
+        }
+    },
+    {
+        "name": "clang",
+        "compilers": {
+            "C": "/usr/bin/clang",
+            "CXX": "/usr/bin/clang++"
+        }
+    }
+]

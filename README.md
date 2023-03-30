@@ -1,24 +1,74 @@
 # Homework 0
 
-> Due: 03-12-2021 11:59:59 PM
+> Due: 04-12-2023 11:59:59 PM
 
-The goal of this homework is to familiarze the homework submission process.
-And implement `insertion_sort`.
+The goal of this homework is to familiarze the homework submission process. And
+implement `insertion_sort`.
 
-**Corresponding Topic**: Design and Analysis of Algorithms, _Running CPP, CMake Files_
+**Corresponding Topic**: Design and Analysis of Algorithms, _Running CPP, CMake
+Files_
 
-## Get Started
+## Setup GUI Dev Environment
 
-### Option 1: Local with Dev Container
+### Option 1: VS Code with Local Dev Container
 
-- Install Docker Desktop and Visual Studio Code.
+- Install/update the following software on your local OS:
+
+  - [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) (Requird for
+    Windows only)
+  - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+  - [Visual Studio Code](https://code.visualstudio.com/)
 
 - Start Docker Desktop and keep it running in the background.
 
 - Click the following button to setup the environment.
 
-[![Clone in Local Dev Container](https://img.shields.io/static/v1?label=Local%20Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/ecs36c-sq2023/hw0)
+  [![Clone in Local Dev Container](https://img.shields.io/static/v1?label=Local%20Dev%20Container&message=Setup&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/ecs36c-sq2023/hw0)
 
+- When asked for selecting a Kit to configure CMake, choose **GCC**.
+
+### Option 2: VS Code with CSIF
+
+- Install/update the following software on your local OS:
+
+  - [Visial Studio Code](https://code.visualstudio.com/)
+  - [Remote SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+
+- Open **VS Code**
+
+- Click the little green button in the bottom-left corner of the window to open
+  **Remote - SSH** extension
+
+- Click **Remote-SSH: Connect to Host...**
+
+- Select **csif** if you configured
+  [Passwordless Login to CSIF](https://github.com/HazyFish/ucdavis-csif-passwordless)
+
+  - If not, in the textbox prompted, enter `username@pcXX.cs.ucdavis.edu` (you
+    need to replace `username` and `XX`), press **enter**, and then enter your
+    password for CSIF
+
+- Wait for VS Code to install VS Code Server on CSIF automatically
+
+  - VS Code Server will be installed in `/home/<username>/.vscode-server` so
+    other users don't have access to it
+  - Retry if you get any error
+
+- Install **C/C++ Extension Pack** (on Remote Server)
+
+- Open an integrated terminal inside VS Code (**Terminal Menu** -> **New
+  Terminal**)
+
+  - Notice that this terminal is already connected to the CSIF
+
+- Run the following command inside the integrated terminal
+
+  `git clone https://github.com/ecs36c-sq2023/hw0 ecs36c-hw0`
+
+- Run `code ./ecs36c-hw0` to open the folder
+
+- When prompted to configure CMake, confirm and choose **GCC** when prompted for
+  kit selection.
 
 ## Table of Contents
 
@@ -36,22 +86,22 @@ IMPORTANT: **DO NOT CHANGE THE SECTION MARKED WITH**
 /** DO NOT CHANGE **/
 ```
 
-0. Build the homework with one of the three options in section Building your Homework..
+0. Build the homework with one of the three options in section Building your
+   Homework..
 
 1. Edit `main.cpp` to implement the I/O Interface.
 
-   - We will only check for `./main [INPUT_FILE] [OUTPUT_FILE]`
-     and compare the output files with expected for final grading
+   - We will only check for `./main [INPUT_FILE] [OUTPUT_FILE]` and compare the
+     output files with expected for final grading
 
-2. Implement the necessary functions to store the input file
-   into IntSequence.
+2. Implement the necessary functions to store the input file into IntSequence.
 
 3. Edit `insertion_sort.cpp` to implement Insertion Sort
 
 ### Input Format
 
-We will provide some sample test in `input/` folder. The input file format
-is the following:
+We will provide some sample test in `input/` folder. The input file format is
+the following:
 
 - Line 1 is a single integer $n$
 - Line 2 is a series of $n$ integer separated by a space.
@@ -60,7 +110,8 @@ You can assume the input format is consistent for all test cases.
 
 ### Output Format
 
-The expected output, provided in `expected/` is a single line with sorted list of integers.
+The expected output, provided in `expected/` is a single line with sorted list
+of integers.
 
 ### Submitting your Homework
 
@@ -79,9 +130,14 @@ Please submit `hw0-submission.zip`
 
 The official description:
 
-> CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice
+> CMake is an open-source, cross-platform family of tools designed to build,
+> test and package software. CMake is used to control the software compilation
+> process using simple platform and compiler independent configuration files,
+> and generate native makefiles and workspaces that can be used in the compiler
+> environment of your choice
 
-In short: **CMake** is a very sophisticated tool for you to build/run/test/deploy CPP programs.
+In short: **CMake** is a very sophisticated tool for you to
+build/run/test/deploy CPP programs.
 
 CMake is:
 
@@ -91,11 +147,14 @@ CMake is:
 
 3. used to Build + Test + Package Software
 
-Like all tools, the meaning of its existence is to allow people to use itself. Since this course is based off of CPP, taking this opportunity to learn how to build with CMake will be great benefit to your future as a software engineer.
+Like all tools, the meaning of its existence is to allow people to use itself.
+Since this course is based off of CPP, taking this opportunity to learn how to
+build with CMake will be great benefit to your future as a software engineer.
 
 ### CMakeLists File
 
-For line-by-line description, refer to [CMakeLists File](./CMakeLists.txt) in homework 0.
+For line-by-line description, refer to [CMakeLists File](./CMakeLists.txt) in
+homework 0.
 
 `CMakeLists.txt` file defines the configuration for cmake.
 
@@ -113,51 +172,10 @@ make
 ./main [INPUT_FILE] [OUTPUT_FILE]
 ```
 
-### Docker [Optional]
-
-Due to the pandemic, some students may not be able to access the internet
-or CSIF. We will provide a docker image for you to run the code locally.
-
-Commercially, Docker is used to streamline deployment of an application. It achieves such goal by bundling your application and its required dependencies into an OS-independent container. Think of a more beefed virtual environment.
-
-You can read more about how docker works [here](<https://en.wikipedia.org/wiki/Docker_(software)>).
-
-For homework, you only need to install docker [here](https://docs.docker.com/engine/install/). (**Warning**: You will need internet when you first download docker. Please do not start the homework at the last minute.)
-
-In order to run the homework,
-
-```bash
-docker build .
-```
-
-You should see:
-
-```bash
-...
-Successfully built IMAGE_ID
-```
-
-You can get your container name with
-
-```bash
-docker run -it IMAGE_ID /bin/bash
-```
-
-This command will allows you to run docker container interactively. 
-
-You should see a new prompt with.
-
-```bash
-bash-5.0#
-```
-
-Continue run the building process described in section [Running Locally](<Running\ Locally>)
-
-*Note*: This workflow is not requird.  Feel free to change Dockerfile to make your debugging more convenient.
-
-### CSIF
+## CSIF Docs
 
 Information about using CSIF computers, such as how to remotely login to CSIF
 computers from home and how to copy files to/from the CSIF computers using your
-personal computer, can be found at [http://csifdocs.cs.ucdavis.edu/about-us]([http://csifdocs.cs.ucdavis.edu/about-us)
+personal computer, can be found at
+[http://csifdocs.cs.ucdavis.edu/about-us]([http://csifdocs.cs.ucdavis.edu/about-us)
 csif-general-faq.

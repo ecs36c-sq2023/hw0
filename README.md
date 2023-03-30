@@ -7,6 +7,19 @@ And implement `insertion_sort`.
 
 **Corresponding Topic**: Design and Analysis of Algorithms, _Running CPP, CMake Files_
 
+## Get Started
+
+### Option 1: Local with Dev Container
+
+- Install Docker Desktop and Visual Studio Code.
+
+- Start Docker Desktop and keep it running in the background.
+
+- Click the following button to setup the environment.
+
+[![Clone in Local Dev Container](https://img.shields.io/static/v1?label=Local%20Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/ecs36c-sq2023/hw0)
+
+
 ## Table of Contents
 
 1. Homework Content

@@ -6,19 +6,20 @@
 
 int main(int argc, char const *argv[])
 {
+    std::cout << "It works!" << std::endl;
 
     /**
      * YOUR CODE HERE
      * 1. Check for the number of arguments.
      * Only proceed if the number of argument is correct,
      * We will only check for ./main [INPUT_FILE] [OUTPUT_FILE]
-     * 
+     *
      */
 
     /**
      * YOUR CODE HERE
      * 2. Read the file [INPUT_FILE]
-     * 
+     *
      */
 
     /**
@@ -30,7 +31,6 @@ int main(int argc, char const *argv[])
      * YOUR CODE HERE
      * 4. Run Insertion Sort
      */
-
 
     /**
      * YOUR CODE HERE

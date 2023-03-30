@@ -9,12 +9,9 @@
     "vscode": {
       "extensions": ["ms-vscode.cpptools-extension-pack"],
       "settings": {
+        "extensions.ignoreRecommendations": true,
         "editor.formatOnSave": true,
-        "cmake.configureOnOpen": true,
-        "cmake.configureSettings": {
-          "CMAKE_C_COMPILER": "gcc",
-          "CMAKE_CXX_COMPILER": "g++"
-        }
+        "cmake.configureOnOpen": true
       }
     }
   }

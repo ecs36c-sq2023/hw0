@@ -69,6 +69,9 @@ Use one of the following options to setup your environment.
 
 ### Option 1: VS Code with Local Dev Container
 
+> This option provides a Graphical User Interface (GUI) for code editing and
+> debugging.
+
 > This option does not require internet connection when coding after initial
 > setup.
 
@@ -99,6 +102,9 @@ Use one of the following options to setup your environment.
     click the red dot.
 
 ### Option 2: VS Code with CSIF
+
+> This option provides a Graphical User Interface (GUI) for code editing and
+> debugging.
 
 > Connecting to CSIF computer may require UC Davis Library VPN.
 

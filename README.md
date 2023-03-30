@@ -74,9 +74,11 @@ Use one of the following options to setup your environment.
 
 - Install/update the following software on your local OS:
 
-  - [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) (Requird for
-    Windows only)
+  - [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) (Required for
+    Windows only) (Docker will use WSL2 as backend on Windows)
   - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+    - Make sure you install the correct version based on your hardware
+      (especially for Apple-chip powered Macbook and ARM-based Windows PC)
   - [Visual Studio Code](https://code.visualstudio.com/)
 
 - Start Docker Desktop and keep it running in the background.
@@ -203,7 +205,7 @@ CMake is:
 3. used to Build + Test + Package Software
 
 Like all tools, the meaning of its existence is to allow people to use itself.
-Since this course is based off of CPP, taking this opportunity to learn how to
+Since this course is based off of C++, taking this opportunity to learn how to
 build with CMake will be great benefit to your future as a software engineer.
 
 ### CMakeLists File

@@ -2,11 +2,10 @@
  * in order to call insertion_sort
  */
 
-#include <insertion_sort.cpp>
+#include "src/utils.hpp"
 
 int main(int argc, char const *argv[])
 {
-    std::cout << "It works!" << std::endl;
 
     /**
      * YOUR CODE HERE

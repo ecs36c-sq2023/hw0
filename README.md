@@ -94,7 +94,7 @@ Use one of the following options to setup your environment.
 
 - Click **Run -> Start Debugging** to run the program.
 
-  - project is automatically (re)built (not need to run `make` or `cmake`
+  - project is automatically (re)built (no need to run `make` or `cmake`
     initially or after making code modifications).
   - you can supply command line args in `.vscode/launch.json` through `args`
     array.
@@ -151,7 +151,7 @@ Use one of the following options to setup your environment.
 
 - Click **Run -> Start Debugging** to run the program.
 
-  - project is automatically (re)built (not need to run `make` or `cmake`
+  - project is automatically (re)built (no need to run `make` or `cmake`
     initially or after making code modifications).
   - you can supply command line args in `.vscode/launch.json` through `args`
     array.

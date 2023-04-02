@@ -18,7 +18,7 @@
                     "value": "${env:PATH}:${command:cmake.getLaunchTargetDirectory}"
                 }
             ],
-            "MIMode": "gdb",
+            "MIMode": "gdb", // note: if you use a Apple Silicon Mac, change this to "lldb"
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",

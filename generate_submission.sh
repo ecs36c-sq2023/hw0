@@ -1,2 +1,2 @@
 rm -f hw0-submission.zip
-zip -r hw0-submission.zip . -x "*.git*" "*build*" ".devcontainer*" ".vscode*" "*expected*" "*input*"
+zip -r hw0-submission.zip main.cpp CMakeLists.txt src/*

@@ -55,13 +55,12 @@ of integers separated by a space and ended with a line break.
 
 ### Submitting your Homework
 
-- Run `./generate_submission.sh`
-
-The script `generate_submission` will create a zip file `hw0-submission.zip`.
-Please submit `hw0-submission.zip` on Gradescope.
-
-> If you are in VS Code using Dev Container or Remote SSH, right click on
-> `hw0-submission.zip` and click `Download` to transfer the file to your host.
+- Run `./generate_submission.sh` to create a zip file `hw0-submission.zip`.
+- Transfer `hw0-submission.zip` to your host (if necessary).
+  - If you are in VS Code with Dev Container / Remote SSH / WSL2, you can right
+    click on `hw0-submission.zip` and click `Download`.
+  - If you are using a terminal, you can use `scp` or `sftp`.
+- Submit `hw0-submission.zip` on Gradescope.
 
 ## Setup Dev Env & Run/Debug Your Program
 

@@ -2,38 +2,41 @@
 
 > Due: 04-12-2023 11:59:59 PM
 
-The goal of this homework is to familiarze the homework submission process. And
-implement `insertion_sort`.
+The goal of this homework is for you to
 
-**Corresponding Topic**: Design and Analysis of Algorithms, _Running CPP, CMake
-Files_
+- setup and get familiarized with the development environment, build tools, and
+  homework submission process;
+- review C++ basics by implementing Insertion Sort.
+
+**Corresponding Topic**: Design and Analysis of Algorithms, C++ Basics, Using
+CMake
 
 ## Table of Contents
 
-1. Homework Spec
-2. Setup Dev Env & Run/Debug Your Program
-3. CMakeFiles
+1. [Homework Spec](#homework-spec)
+2. [Setup Dev Env & Run/Debug Your Program](#setup-dev-env--rundebug-your-program)
+3. [CMakeFiles](#cmakefiles)
 
 ## Homework Spec
 
-IMPORTANT: **DO NOT CHANGE THE SECTION MARKED WITH**
+> ⚠️ DO NOT change the section marked with
+>
+> ```cpp
+> /** DO NOT CHANGE **/
+> ...
+> /** DO NOT CHANGE **/
+> ```
 
-```cpp
-/** DO NOT CHANGE **/
-...
-/** DO NOT CHANGE **/
-```
+1. Setup your environment using one of options in the next section.
 
-0. Setup your environment using one of options in the next section.
-
-1. Edit `main.cpp` to implement the I/O Interface.
+2. Edit `main.cpp` to implement the I/O Interface.
 
    - We will only check for `./main [INPUT_FILE] [OUTPUT_FILE]` and compare the
      output files with expected for final grading
 
-2. Implement the necessary functions to store the input file into `IntSequence`.
+3. Implement the necessary functions to store the input file into `IntSequence`.
 
-3. Edit `insertion_sort.cpp` to implement Insertion Sort
+4. Edit `insertion_sort.cpp` to implement Insertion Sort
 
 ### Input Format
 
@@ -204,7 +207,7 @@ The official description:
 > environment of your choice
 
 In short: **CMake** is a very sophisticated tool for you to
-build/run/test/deploy CPP programs.
+build/run/test/deploy C++ programs.
 
 CMake is:
 

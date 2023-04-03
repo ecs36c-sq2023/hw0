@@ -64,6 +64,13 @@ Please submit `hw0-submission.zip` on Gradescope.
 
 Use one of the following options to setup your environment.
 
+> ⚠️ If you're a student, **DO NOT FORK** this repository because you cannot
+> change the visibility of a forked repo to private. If you plan to use Git for
+> version control (which is encouraged), run `rm -rf .git && git init` after
+> setting up using one of the options below and push to your **private**
+> repository. Any public repository containing part of this homework solution
+> will be reported to SJA.
+
 ### Option 1: VS Code with Local Dev Container
 
 > This option provides a Graphical User Interface (GUI) for code editing and

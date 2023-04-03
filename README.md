@@ -37,31 +37,28 @@ IMPORTANT: **DO NOT CHANGE THE SECTION MARKED WITH**
 
 ### Input Format
 
-We will provide some sample test in `input/` folder. The input file format is
+We will provide some sample tests in `input/` folder. The input file format is
 the following:
 
-- Line 1 is a single integer $n$
-- Line 2 is a series of $n$ integer separated by a space.
+- Line 1 is a single integer $n$;
+- Line 2 is a series of $n$ integer(s) separated by a space.
 
 You can assume the input format is consistent for all test cases.
 
 ### Output Format
 
 The expected output, provided in `expected/` is a single line with sorted list
-of integers.
+of integers separated by a space and ended with a line break.
 
 ### Submitting your Homework
 
-run
-
-```bash
-chmod +x generate_submission
-
-./generate_submission
-```
+- Run `./generate_submission.sh`
 
 The script `generate_submission` will create a zip file `hw0-submission.zip`.
 Please submit `hw0-submission.zip` on Gradescope.
+
+> If you are in VS Code using Dev Container or Remote SSH, right click on
+> `hw0-submission.zip` and click `Download` to transfer the file to your host.
 
 ## Setup Dev Env & Run/Debug Your Program
 
@@ -88,7 +85,7 @@ Use one of the following options to setup your environment.
 
 - Click the following button to setup the environment.
 
-  [![Clone in Local Dev Container](https://img.shields.io/static/v1?label=Local%20Dev%20Container&message=Setup&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/ecs36c-sq2023/hw0)
+  [![Setup Local Dev Container](https://img.shields.io/static/v1?label=Local%20Dev%20Container&message=Setup&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/ecs36c-sq2023/hw0)
 
 - When asked for selecting a Kit to configure CMake, choose **GCC**.
 
